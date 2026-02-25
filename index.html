@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger</title>
+
+</head>
+<body>
+    <header class="header">
+        <h1>Jimmy's Diner</h1>
+        <h2>The best burgers and pizzas in town</h2>
+    </header>
+<div id="menu"></div>
+<div id="order-container"></div>
+</div>
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Enter card details</h2>
+    
+    <form id="payment-form">
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <input type="text" placeholder="Enter card number" required />
+      <input type="text" placeholder="Enter CVV" required />
+      
+      <button type="submit">Pay</button>
+    </form>
+  </div>
+</div>
+<script type="module" src="index.js"></script>     
+</body>
+</html>

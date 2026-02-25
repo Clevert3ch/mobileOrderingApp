@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    height: 167px;
+    width: 600px;
+    border: 1px solid;
+    padding-left:30px ;
+    background-image: url(images/burgerandfries.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.item-left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.add-btn {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.emoji {
+    font-size: 60px;
+    line-height: 1;
+}
+
+#order-container {
+    padding: 10px;
+    border-top: 2px solid #000;
+}
+
+#order-container h2 {
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.complete-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background: #16DB99;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/* Modal pop up */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hidden {
+    display: none;
+} 
+
+.modal-content{
+    display: block;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    width: 300px;
+    border: 1px solid #16DB99;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#payment-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 92%;
+}
+
+#payment-form button{
+    background: #16DB99;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.thank-you {
+    color: #065F46;
+    background: #ECFDF5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 20px;
+}
