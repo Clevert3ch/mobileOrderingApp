@@ -2,7 +2,7 @@
 
 A mobile-styled burger ordering app. Browse a menu of items, add what you want to your order, see a running total, and check out with a payment modal. Built as a vanilla JavaScript exercise focused on DOM manipulation, event delegation, and managing app state without a framework.
 
-![Order The Food demo](./docs/mobileorderapp)
+![Order The Food demo](./docs/mobileorderapp.gif)
 
 ## Why I built it
 
